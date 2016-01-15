@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Raleway-Bold;
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+#body {
+    font-family: PTMono;
+}
+
+#logo {
+    max-width: 200px;
+}
+
+.nav-link {
+    font-family: Raleway-Bold;
+    color: darkgrey;
+    height: 121px;
+    font-weight: 200;
+    line-height: 95px;
+    font-size: 18px;
+}
+
+.nav-link.active {
+    color: #58C1BB
+}
+
+.nav-link:hover {
+    color: #58C1BB;
+}
+
+.nav-item {
+    text-align: center;
+    padding: 0;
+}
+
+.nav-item.active {
+    background-color: #EEE;
+}
+
+.text-block {
+    padding: 15px;
+    font-size: 15px;
+}
+
+.image {
+    text-align: center;
+    padding: 15px;
+}
+
+.photo {
+    border-radius: 10px;
+}
+
+.list-group-item.active {
+    background-color: #58C1BB;
+    border-color: #58C1BB;
+}
+
+
+.list-group-item.active:hover {
+    background-color: #58C1BB;
+    border-color: #58C1BB;
+}
