@@ -3,6 +3,10 @@
     src: url(../fonts/Raleway-Bold.ttf);
 }
 
+html, body {
+    height: 102%;
+}
+
 body {
     padding: 0 15%;
     font-family: PTMono;
@@ -12,6 +16,7 @@ body {
 .container-fluid.main-container{
     background-color: white;
     padding: 0;
+    height: 100%;
 }
 
 .page-header {
