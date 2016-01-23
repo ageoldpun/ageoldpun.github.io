@@ -3,17 +3,19 @@
     src: url(../fonts/Raleway-Bold.ttf);
 }
 
-html, body {
-    height: 102%;
+@font-face {
+    font-family: Raleway-Medium;
+    src: url(../fonts/Raleway-Medium.ttf);
 }
 
 body {
     padding: 0 15%;
-    font-family: PTMono;
+    font-size: 15px;
+    font-family: Raleway-Medium;
     background-color: #107D79;
 }
 
-h4 {
+h1, h2, h3, h4, h5, h6 {
     font-family: Raleway-Bold;
 }
 
@@ -28,6 +30,10 @@ h4 {
     text-align: center;
     margin: 0;
     border-bottom: none;
+}
+
+.row {
+  margin: 0 0;
 }
 
 #logo {
@@ -78,11 +84,6 @@ h4 {
     color: #58C1BB;
 }
 
-.text-block {
-    padding: 3% 0;
-    font-size: 15px;
-}
-
 .image {
     padding: 3% 0;
     text-align: center;
@@ -93,16 +94,18 @@ h4 {
     width: 100%;
 }
 
-.list-group-item.active {
-    font-family: Raleway-Bold;
-    background-color: #92938C;
-    border-color: #92938C;
-    color: #DFE592;
+.building-name {
+    text-align: center;
+    margin-top: 0px;
 }
 
-.list-group-item.active:hover {
-    font-family: Raleway-Bold;
-    background-color: #92938C;
-    border-color: #92938C;
-    color: #58C1BB;
+.list-header,
+.list-header:hover {
+  width: 100%;
+  margin: 0 0 3%;
+  cursor: default;
+  font-family: Raleway-Bold;
+  background-color: #92938C;
+  border-color: #92938C;
+  color: #DFE592;
 }
