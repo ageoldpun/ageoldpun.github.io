@@ -146,3 +146,21 @@ th {
   height: 202px;
   background: no-repeat url(../imgs/social_language_hover.png) 0 0;
 }
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 0 2%;
+  }
+
+  .navbar-nav {
+    margin: 0;
+  }
+
+  .equal .header-link {
+    width: 100%;
+  }
+
+  .list-header {
+    padding: 1% 0;
+  }
+}
