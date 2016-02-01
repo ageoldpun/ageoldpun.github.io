@@ -147,7 +147,7 @@ th {
   background: no-repeat url(../imgs/social_language_hover.png) 0 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   body {
     padding: 0 2%;
   }
