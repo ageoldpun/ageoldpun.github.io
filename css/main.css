@@ -149,7 +149,7 @@ th {
 
 @media screen and (max-width: 768px) {
   body {
-    padding: 0 2%;
+    padding: 0;
   }
 
   .navbar-nav {
@@ -175,5 +175,16 @@ th {
   #language,
   #social-language {
     margin-left: 8%;
+  }
+
+  #articulation-modal.modal.fade.in
+  #language-modal.modal.fade.in,
+  #social-language-modal.modal.fade.in {
+    top: 5%;
+  }
+
+  .modal-dialog {
+    margin: 0;
+    width: 94%;
   }
 }
