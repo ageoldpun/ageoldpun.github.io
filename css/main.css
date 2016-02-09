@@ -40,6 +40,20 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 85%;
 }
 
+#headshot {
+  width: 30%;
+  float: left;
+  padding: 0 2%;
+}
+
+.text-block {
+  padding: 0 2%;
+}
+
+.communication-well {
+  background: #DFE592;
+}
+
 .navbar-default {
     background-color: #92938C;
     font-family: Raleway-Bold;
@@ -96,8 +110,10 @@ h1, h2, h3, h4, h5, h6 {
 .list-header,
 .list-header:hover {
   width: 100%;
+  font-size: 16px;
   margin: 0 0 3%;
   cursor: default;
+  white-space: normal;
   font-family: Raleway-Bold;
   background-color: #92938C;
   border-color: #92938C;
