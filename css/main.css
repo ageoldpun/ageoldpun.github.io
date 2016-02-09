@@ -46,6 +46,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 2%;
 }
 
+.highlighted {
+  font-weight: bolder;
+  text-shadow: 1px 0;
+  letter-spacing: 1px;
+}
+
 .text-block {
   padding: 0 2%;
 }
