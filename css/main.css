@@ -132,17 +132,17 @@ th {
   text-align: center;
 }
 
-#articulation {
+#speech {
     width: 100%;
     height: 202px;
-    background: no-repeat url(../imgs/articulation.png) 0 0;
+    background: no-repeat url(../imgs/speech.png) 0 0;
 }
 
-#articulation:hover {
+#speech:hover {
     cursor: pointer;
     width: 100%;
     height: 202px;
-    background: no-repeat url(../imgs/articulation_hover.png) 0 0;
+    background: no-repeat url(../imgs/speech_hover.png) 0 0;
 }
 
 #language {
