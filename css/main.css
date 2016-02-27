@@ -24,6 +24,10 @@ p {
   text-justify: inter-word;
 }
 
+a {
+  color: #107D79;
+}
+
 .container-fluid.main-container{
     background-color: white;
     padding: 0;
@@ -196,12 +200,6 @@ th {
   #language-container,
   #social-language-container {
     float: none!important;
-  }
-
-  #articulation,
-  #language,
-  #social-language {
-    margin-left: 8%;
   }
 
   #articulation-modal.modal.fade.in
