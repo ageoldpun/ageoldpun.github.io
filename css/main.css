@@ -19,11 +19,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Raleway-Bold;
 }
 
-p {
-  text-align: justify;
-  text-justify: inter-word;
-}
-
 a {
   color: #107D79;
 }
@@ -132,6 +127,14 @@ a {
   font-family: Raleway-Bold;
   background-color: #92938C;
   border-color: #92938C;
+  color: #DFE592;
+}
+
+.list-header p {
+  text-align: justify;
+}
+
+.faq-link {
   color: #DFE592;
 }
 
