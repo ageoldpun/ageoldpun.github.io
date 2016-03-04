@@ -27,6 +27,7 @@ a {
     background-color: white;
     padding: 0;
     height: 105%;
+    margin-bottom: 50px;
 }
 
 .page-header {
@@ -50,6 +51,10 @@ a {
   padding: 0 2%;
 }
 
+#index-intro {
+  padding-right: 10%
+}
+
 .highlighted {
   font-weight: bolder;
   text-shadow: 1px 0;
@@ -58,10 +63,16 @@ a {
 
 .text-block {
   padding: 0 2%;
+  text-align: justify;
+}
+
+.underlined {
+  text-decoration: underline;
 }
 
 .communication-well {
   background: #DFE592;
+  margin-right: 9%;
 }
 
 .navbar-default {
