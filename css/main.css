@@ -130,6 +130,7 @@ a {
 
 .list-header,
 .list-header:hover {
+  text-align: left;
   width: 100%;
   font-size: 16px;
   margin: 0 0 3%;
